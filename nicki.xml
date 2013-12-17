@@ -4,6 +4,7 @@
 <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" branch="cm-10.2" />
 <project path="device/sony/nicki" name="CyanCom/android_device_sony_nicki" branch="cm-10.2" />
 <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" branch="cm-10.2" />
+<project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" branch="cm-10.2" />
 <project path="vendor/sony/nicki" name="CyanCom/android_vendor_sony_nicki" branch="cm-10.2" />
 <project path="kernel/sony/nicki" name="CyanCom/android_kernel_sony_nicki" branch="cm-10.2" />
 
