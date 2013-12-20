@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Hardware Repos -->
+<project path="hardware/atheros/wlan" name="CyanCom/android_hardware_atheros" branch="cm-10.2" />
+<project path="hardware/qcom/display-legacy" name="CyanCom/android_hardware_qcom_display-legacy" branch="cm-10.2" />
+<project path="hardware/qcom/media-legacy" name="CyanCom/android_hardware_qcom_media-legacy" branch="cm-10.2" />
+
+<!-- Device, Vendor & Kernel Trees -->
+<project path="device/htc/golfu" name="CyanCom/android_device_htc_golfu" branch="cm-10.2" />
+<project path="kernel/htc/golfu" name="CyanCom/android_kernel_htc_golfu" branch="cm-10.2" />
+
+</manifest>
