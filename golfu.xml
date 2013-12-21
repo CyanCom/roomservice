@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- Hardware Repos -->
-<project path="hardware/atheros/wlan" name="CyanCom/android_hardware_atheros" branch="cm-10.2" />
+<project path="hardware/atheros/wlan" name="CyanCom/android_hardware_atheros_wlan" branch="cm-10.2" />
 <project path="hardware/qcom/display-legacy" name="CyanCom/android_hardware_qcom_display-legacy" branch="cm-10.2" />
 <project path="hardware/qcom/media-legacy" name="CyanCom/android_hardware_qcom_media-legacy" branch="cm-10.2" />
 
