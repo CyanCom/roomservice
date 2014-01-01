@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Device, Vendor & Kernel Trees -->
+<project path="device/acer/swing" name="CyanCom/android_device_acer_swing" revision="cm-10.2" />
+<project path="vendor/acer/swing" name="CyanCom/android_vendor_acer_swing" revision="cm-10.2" />
+<project path="kernel/acer/swing" name="CyanCom/android_kernel_acer_swing" revision="cm-10.2" />
+
+</manifest>
