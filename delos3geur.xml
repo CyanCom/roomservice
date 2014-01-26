@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- Removed Repos -->
+<remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+
+<!-- Hacked Repos -->
+<project path="hardware/libhardware_legacy" name="CyanCom/android_hardware_libhardware_legacy" revision="cm-10.2" />
+
 <!-- Hardware Repos -->
 <project path="hardware/atheros/wlan" name="CyanCom/android_hardware_atheros_wlan" revision="cm-10.2" />
 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" revision="cm-10.2" />
