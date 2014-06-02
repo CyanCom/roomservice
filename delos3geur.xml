@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Removed Repos -->
-<remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-
-<!-- Hacked Repos -->
-<project path="hardware/libhardware_legacy" name="CyanCom/android_hardware_libhardware_legacy" revision="cm-11.0" />
-
 <!-- Hardware Repos -->
-<project path="hardware/atheros/wlan" name="CyanCom/android_hardware_atheros_wlan" revision="cm-11.0" />
-<project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" revision="cm-11.0" />
-<project path="hardware/qcom/display-legacy" name="CyanCom/android_hardware_qcom_display-legacy" revision="cm-11.0" />
-<project path="hardware/qcom/media-legacy" name="CyanCom/android_hardware_qcom_media-legacy" revision="cm-11.0" />
-<project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" revision="cm-11.0" />
-<project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" revision="cm-11.0" />
+<project path="hardware/qcom/display-legacy" name="omnirom/android_hardware_qcom_display-legacy" revision="android-4.4" />
+<project path="hardware/qcom/media-legacy" name="omnirom/android_hardware_qcom_media-legacy" revision="android-4.4" />
 
 <!-- Device, Vendor & Kernel Trees -->
 <project path="device/samsung/delos3geur" name="CyanCom/android_device_samsung_delos3geur" revision="cm-11.0-exp" />
 <project path="vendor/samsung/delos3geur" name="CyanCom/android_vendor_samsung_delos3geur" revision="cm-11.0" />
 <project path="kernel/samsung/delos3geur" name="CyanCom/android_kernel_samsung_delos3geur" revision="cm-11.0-exp" />
-
-<!-- Packages -->
-<project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" revision="cm-11.0" />
 
 </manifest>
